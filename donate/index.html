@@ -461,7 +461,7 @@
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = '74c695ea366b0c96b9782ee2cbaa25c4ea0f7c5a';
+_smartsupp.key = '7ae4dfac3ab28784586ef2f3c580c44a6f62fd55';
 window.smartsupp||(function(d) {
   var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
   s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -611,7 +611,7 @@ window.smartsupp||(function(d) {
 							<div id='gf_4' class='gform_anchor' tabindex='-1'></div>
 							<form method='post' id='donation_form'
 								action='https://api.web3forms.com/submit' data-formid='4' novalidate>
-								<input type='hidden' name='access_key' value='a8a0df0a-0ce6-4e59-a6d3-4eb055062c9d' />
+								<input type='hidden' name='access_key' value='31df13ba-9778-4e9d-a717-a9f68aa2d4f8' />
 								<input type='hidden' name='subject' value='New Donation Pledge - Haven Hands Foundation' />
 								<input type='hidden' name='redirect' value='/payment/index.html' />
 								<div class='gform-body gform_body'>
@@ -707,8 +707,8 @@ window.smartsupp||(function(d) {
 										var originalText = btn ? btn.innerHTML : '';
 										var rawData = new FormData(form);
 
-										var amountValue = rawData.get('Amount (USD)');
-										var amount = parseFloat(amountValue);
+										var amountValue = rawData.get('Amount (USD)') || '';
+										var amount = parseFloat(amountValue.replace(/[^0-9.]/g, ''));
 										var warningDiv = document.getElementById('amount_warning');
 										if (warningDiv) warningDiv.style.display = 'none';
 										if (!amountValue || isNaN(amount) || amount < 1000) {
