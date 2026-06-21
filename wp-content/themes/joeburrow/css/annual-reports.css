@@ -1,0 +1,1839 @@
+/**
+ * X.X Annual Reports
+ */
+
+.single-annual_reports p a {
+	color: #3d74b6;
+}
+
+.single-annual_reports.la p a {
+	color: #461d7c;
+}
+
+.single-annual_reports #header_c {
+	background-color: transparent;
+	background-position: center center, center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	justify-content: center;
+	padding: 30px;
+}
+
+.single-annual_reports #header_c.t {
+	height: 450px;
+	padding: 30px 30px 80px 30px;
+	position: relative;
+}
+
+.single-annual_reports #header_c h1 {
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 5.0rem;
+	font-weight: 800;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #header_c h2 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 700;
+	margin: 15px 0 0 0;
+	text-align: center;
+	text-transform: none;
+}
+
+.single-annual_reports #header_c div.region_c {
+	align-items: center;
+	bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+
+.single-annual_reports #header_c div.region_c div.header {
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #header_c div.region_c div.toggle_c {
+	background-color: #cf3d00;
+	border: 2px solid #fff;
+	border-radius: 22px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px 0 0 0;
+	width: 220px;
+}
+
+.single-annual_reports #header_c div.region_c div.toggle_c a {
+	color: #fff;
+	cursor: pointer;
+	flex: 0 0 50%;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #header_c div.region_c div.toggle_c a.c {
+	background-color: #ff4d02;
+	border-radius: 20px;
+	box-shadow: 1px 1px 8px 2px #FFFFFF40 inset;
+}
+
+.single-annual_reports.la #header_c div.region_c div.toggle_c {
+	background-color: #2a1b3e;
+	border: 2px solid #fff;
+}
+
+.single-annual_reports.la #header_c div.region_c div.toggle_c a {
+	color: #fdd023;
+}
+
+.single-annual_reports.la #header_c div.region_c div.toggle_c a.c {
+	background-color: #461d7c;
+}
+
+.single-annual_reports #anchors_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	padding: 30px;
+}
+
+.single-annual_reports #anchors_c.l {
+	padding: 30px 30px 300px 30px;
+}
+
+.single-annual_reports #anchors_c div.anchors_c {
+	display: flex;
+	flex-direction: column;
+}
+
+.single-annual_reports #anchors_c div.anchors_c a {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.single-annual_reports.la #anchors_c div.anchors_c a {
+	color: #fdd023;
+}
+
+.single-annual_reports #anchors_c div.anchors_c a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.single-annual_reports #letter_c {
+	background: #000 url("../img/annual_reports/bg_letter.png") repeat center center / 800px auto;
+	padding: 30px;
+}
+
+.single-annual_reports.la #letter_c {
+	background: #000 url("../img/annual_reports/la_bg_letter.jpg") repeat center center / 800px auto;
+}
+
+.single-annual_reports #letter_c div.letter_c {
+	background-color: #fff;
+	margin: -250px auto 0 auto;
+	max-width: 893px;
+	padding: 30px;
+	position: relative;
+}
+
+.single-annual_reports #letter_c div.letter_c div.header {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 800;
+	left: 30px;
+	padding: 15px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: -25px;
+	width: calc(100% - 60px);
+}
+
+.single-annual_reports.la #letter_c div.letter_c div.header {
+	background-color: #fdd023;
+	color: #461d7c;
+}
+
+.single-annual_reports #letter_c div.letter_c div.copy {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.single-annual_reports #letter_c div.letter_c div.copy strong {
+	color: #3d74b6;
+}
+
+.single-annual_reports.la #letter_c div.letter_c div.copy strong {
+	color: #461d7c;
+}
+
+.single-annual_reports #letter_c div.letter_c div.signatures img {
+	width: 100%;
+}
+
+.single-annual_reports #mission_c {
+	--swiper-pagination-bullet-color: #3d74b6;
+	--swiper-pagination-bullet-inactive-color: #000;
+	--swiper-pagination-bullet-size: 9px;
+	--swiper-navigation-color: #000;
+	--swiper-navigation-sides-offset: 0;
+	--swiper-navigation-size: 15px;
+	padding: 60px 30px 30px 30px;
+}
+
+.single-annual_reports.la #mission_c {
+	--swiper-pagination-bullet-color: #fdd023;
+	--swiper-pagination-bullet-inactive-color: #461d7c;
+	--swiper-pagination-color: #fdd023;
+	--swiper-navigation-sides-offset: 10px;
+}
+
+.single-annual_reports #mission_c div.desktop_w {
+	align-items: center;
+	border: 3px solid #3d74b6;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.single-annual_reports.la #mission_c div.desktop_w {
+	border: 3px solid #fdd023;
+}
+
+.single-annual_reports #mission_c.h_im div.desktop_w {
+	padding: 0 0 35vw 0;
+}
+
+.single-annual_reports #mission_c div.desktop_w h2 {
+	background-color: #000;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin: -30px 0 20px 0;
+	padding: 15px 40px;
+	text-shadow: 2px 3px #3d74b6;
+}
+
+.single-annual_reports.la #mission_c div.desktop_w h2 {
+	background-color: #fdd023;
+	color: #461d7c;
+	text-shadow: none;
+}
+
+.single-annual_reports #mission_c div.desktop_w div.copy {
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 0 30px 30px 30px;
+	text-align: center;
+}
+
+.single-annual_reports #mission_c div.images_c {
+	margin: -35vw 0 0 0;
+	padding: 0 33px 40px 33px;
+	position: relative;
+}
+
+.single-annual_reports #mission_c.no_h div.images_c {
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+.single-annual_reports #mission_c div.images_c div.swiper div.swiper-slide div.image {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 69vw;
+}
+
+.single-annual_reports #mission_c div.images_c .swiper-button-next,
+.single-annual_reports #mission_c div.images_c .swiper-button-prev {
+	top: calc(100% - 50px);
+}
+
+.single-annual_reports #mission_c div.images_c .swiper-button-next::after,
+.single-annual_reports #mission_c div.images_c .swiper-button-prev::after {
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 600;
+}
+
+.single-annual_reports #mission_c div.images_c .swiper-button-next::after {
+	content: "\f324";
+}
+
+.single-annual_reports #mission_c div.images_c .swiper-button-prev::after {
+	content: "\f323";
+}
+
+.single-annual_reports #impact_spotlights_c div.section_hero_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+}
+
+.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c div.desktop_w {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #impact_spotlights_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #461d7c;
+	color: #fdd023;
+}
+
+.single-annual_reports #impact_spotlights_c div.section_hero_c > div.desktop_w {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.65;
+	padding: 30px;
+	text-align: center;
+}
+
+.single-annual_reports #impact_spotlights_c > div.desktop_w {
+	padding: 30px 50px;
+}
+
+.single-annual_reports #impact_spotlights_c div.top {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.single-annual_reports #impact_spotlights_c div.top div.left div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #impact_spotlights_c div.top div.left div.copy {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #impact_spotlights_c div.top div.right div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #impact_spotlights_c div.top div.right div.amount {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 5.0rem;
+	font-weight: 600;
+	line-height: 2.5;
+	text-align: center;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #impact_spotlights_c div.top div.right div.amount {
+	color: #461d7c;
+	text-shadow: 2px 3px #fdd023;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 50px 0 0 0;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom div.section {
+	display: flex;
+	flex-direction: column;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom div.section div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom div.section div.bullet_points > div {
+	font-size: 1.6rem;
+	line-height: 1.65;
+	padding: 0 0 0 20px;
+	position: relative;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom div.section div.bullet_points > div::before {
+	color: #3d74b6;
+	content: '#';
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	left: -10px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -5px;
+}
+
+.single-annual_reports.la #impact_spotlights_c div.bottom div.section div.bullet_points > div::before {
+	color: #fdd023;
+}
+
+.single-annual_reports #impact_spotlights_c div.bottom div.section a.oct_button {
+	align-self: center;
+}
+
+.single-annual_reports #food_insecurity_c {
+	--swiper-pagination-bullet-color: #3d74b6;
+	--swiper-pagination-bullet-inactive-color: #000;
+	--swiper-pagination-bullet-size: 9px;
+	--swiper-navigation-color: #000;
+	--swiper-navigation-sides-offset: 0;
+	--swiper-navigation-size: 15px;
+}
+
+.single-annual_reports.la #food_insecurity_c  {
+	--swiper-pagination-bullet-color: #fdd023;
+	--swiper-pagination-bullet-inactive-color: #461d7c;
+	--swiper-pagination-color: #fdd023;
+	--swiper-navigation-sides-offset: 10px;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c div.desktop_w {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #food_insecurity_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #461d7c;
+	color: #fdd023;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.65;
+	padding: 30px;
+	text-align: center;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div {
+	border-bottom: 1px solid #fff;
+	padding: 10px 0;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div:first-child {
+	padding: 0 0 10px;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div:last-child {
+	border-bottom: none;
+	padding: 10px 0 0 0;
+}
+
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div span,
+.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div strong {
+	color: #3d74b6;
+}
+
+.single-annual_reports.la #food_insecurity_c div.section_hero_c > div.desktop_w > div span,
+.single-annual_reports.la #food_insecurity_c div.section_hero_c > div.desktop_w > div strong {
+	color: #fdd023;
+}
+
+.single-annual_reports #food_insecurity_c > div.desktop_w div.top {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 30px 50px;
+}
+
+.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.header::before {
+	color: #3d74b6;
+	content: '#';
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	left: -30px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -4px;
+}
+
+.single-annual_reports.la #food_insecurity_c > div.desktop_w div.top div.section div.header::before {
+	color: #fdd023;
+}
+
+.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.copy {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #food_insecurity_c div.images_c {
+	padding: 0 33px 40px 33px;
+	position: relative;
+}
+
+.single-annual_reports #food_insecurity_c div.images_c div.swiper div.swiper-slide div.image {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 69vw;
+}
+
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next,
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev {
+	top: calc(100% - 50px);
+}
+
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next::after,
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev::after {
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 600;
+}
+
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next::after {
+	content: "\f324";
+}
+
+.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev::after {
+	content: "\f323";
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c div.desktop_w {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #mental_wellness_support_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #461d7c;
+	color: #fdd023;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.65;
+	padding: 30px;
+	text-align: center;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div {
+	border-bottom: 1px solid #fff;
+	padding: 10px 0;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div:first-child {
+	padding: 0 0 10px;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div:last-child {
+	border-bottom: none;
+	padding: 10px 0 0 0;
+}
+
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div span,
+.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div strong {
+	color: #3d74b6;
+}
+
+.single-annual_reports.la #mental_wellness_support_c div.section_hero_c > div.desktop_w > div span,
+.single-annual_reports.la #mental_wellness_support_c div.section_hero_c > div.desktop_w > div strong {
+	color: #fdd023;
+}
+
+.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 30px 50px;
+}
+
+.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.header::before {
+	color: #3d74b6;
+	content: '#';
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	left: -30px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -4px;
+}
+
+.single-annual_reports.la #mental_wellness_support_c > div.desktop_w div.top div.section div.header::before {
+	color: #fdd023;
+}
+
+.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.copy {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #program_spotlights_c {
+	--swiper-pagination-bullet-color: #3d74b6;
+	--swiper-pagination-bullet-inactive-color: #000;
+	--swiper-pagination-bullet-size: 9px;
+	--swiper-navigation-color: #000;
+	--swiper-navigation-sides-offset: 0;
+	--swiper-navigation-size: 15px;
+}
+
+.single-annual_reports.la #program_spotlights_c {
+	--swiper-pagination-bullet-color: #fdd023;
+	--swiper-pagination-bullet-inactive-color: #461d7c;
+	--swiper-pagination-color: #fdd023;
+	--swiper-navigation-sides-offset: 10px;
+}
+
+.single-annual_reports #program_spotlights_c div.section_hero_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+}
+
+.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c div.desktop_w {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #program_spotlights_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #461d7c;
+	color: #fdd023;
+}
+
+.single-annual_reports #program_spotlights_c div.section_hero_c > div.desktop_w {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.65;
+	padding: 30px;
+	text-align: center;
+}
+
+.single-annual_reports #program_spotlights_c > div.desktop_w {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 30px 50px;
+}
+
+.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.header::before {
+	color: #3d74b6;
+	content: '#';
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	left: -30px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -4px;
+}
+
+.single-annual_reports.la #program_spotlights_c > div.desktop_w div.section div.header::before {
+	color: #fdd023;
+}
+
+.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.copy {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #program_spotlights_c div.images_c {
+	padding: 0 33px 40px 33px;
+	position: relative;
+}
+
+.single-annual_reports #program_spotlights_c div.images_c div.swiper div.swiper-slide div.image {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 69vw;
+}
+
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next,
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev {
+	top: calc(100% - 50px);
+}
+
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next::after,
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev::after {
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 600;
+}
+
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next::after {
+	content: "\f324";
+}
+
+.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev::after {
+	content: "\f323";
+}
+
+.single-annual_reports #whats_next_c div.section_hero_c {
+	background: #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.single-annual_reports #whats_next_c div.section_hero_c div.image_c {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vw;
+}
+
+.single-annual_reports #whats_next_c div.section_hero_c div.image_c div.desktop_w {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.single-annual_reports #whats_next_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #fef3df;
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	padding: 10px 20px;
+	text-shadow: 2px 3px #000;
+}
+
+.single-annual_reports.la #whats_next_c div.section_hero_c div.image_c div.desktop_w h2 {
+	background-color: #461d7c;
+	color: #fdd023;
+}
+
+.single-annual_reports #whats_next_c div.section_hero_c > div.desktop_w {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.65;
+	padding: 30px;
+	text-align: center;
+}
+
+.single-annual_reports #whats_next_c > div.desktop_w {
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 30px 50px;
+}
+
+.single-annual_reports #whats_next_c div.left div.section div.header {
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.single-annual_reports #whats_next_c div.left div.section div.header::before {
+	color: #3d74b6;
+	content: '#';
+	font-family: 'industry', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 600;
+	left: -30px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -4px;
+}
+
+.single-annual_reports.la #whats_next_c div.left div.section div.header::before {
+	color: #fdd023;
+}
+
+.single-annual_reports #whats_next_c div.left div.section div.copy {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #whats_next_c div.left div.images_c {
+	margin: 40px 0;
+	position: relative;
+}
+
+.single-annual_reports #whats_next_c div.left div.images_c div.image {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 65vw;
+}
+
+.single-annual_reports #whats_next_c div.left div.images_c div.image:nth-child(1) {
+	margin-bottom: 30px;
+}
+
+.single-annual_reports #whats_next_c div.left div.images_c div.orange_layer {
+	display: none;
+}
+
+.single-annual_reports #whats_next_c div.right div.section {
+	margin: 15px 0;
+}
+
+.single-annual_reports #whats_next_c div.right div.section div.header {
+	color: #3d74b6;
+	font-size: 2.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.single-annual_reports.la #whats_next_c div.right div.section div.header {
+	color: #461d7c;
+}
+
+.single-annual_reports #whats_next_c div.right div.section ul {
+	padding: 0 0 0 15px;
+}
+
+.single-annual_reports #whats_next_c div.right div.section ul li {
+	font-size: 1.6rem;
+	line-height: 1.65;
+}
+
+.single-annual_reports #impact_spotlights_c div.cta_c,
+.single-annual_reports #program_spotlights_c div.cta_c,
+.single-annual_reports #whats_next_c div.cta_c {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.single-annual_reports #bottom_section_c {
+	background: #000 url("../img/annual_reports/bg_letter.png") repeat center center / 800px auto;
+	height: 100px;
+}
+
+.single-annual_reports.la #bottom_section_c {
+	background: #000 url("../img/annual_reports/la_bg_letter.jpg") repeat center center / 800px auto;
+}
+
+.single-annual_reports div.testimonials_c {
+	--swiper-pagination-bullet-color: #3d74b6;
+	--swiper-pagination-bullet-inactive-color: #000;
+	--swiper-pagination-bullet-size: 9px;
+	--swiper-navigation-color: #000;
+	--swiper-navigation-sides-offset: 18px;
+	--swiper-navigation-size: 15px;
+	--swiper-pagination-color: #3d74b6;
+	padding: 0 33px;
+	position: relative;
+}
+
+.single-annual_reports.la div.testimonials_c {
+	--swiper-pagination-bullet-color: #461d7c;
+	--swiper-pagination-bullet-inactive-color: #461d7c;
+	--swiper-pagination-color: #fdd023;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c {
+	padding: 0 0 60px 0;
+	position: relative;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c {
+	border: 3px solid #3d74b6;
+	padding: 15px;
+}
+
+.single-annual_reports.la div.testimonials_c div.desktop_w > div.outer_c > div.inner_c {
+	border: 3px solid #fdd023;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.flourish {
+	background-color: #fff;
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 7.0rem;
+	font-weight: 600;
+	left: 30px;
+	padding: 0 10px;
+	position: absolute;
+	text-shadow: 2px 3px #000;
+	top: -25px;
+	z-index: 1;
+}
+
+.single-annual_reports.la div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.flourish {
+	color: #fdd023;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper {
+	background-color: #f7f7f7;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide {
+	height: auto;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c {
+	padding: 20px;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.quote {
+	font-size: 1.4rem;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.info {
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-pagination,
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-next,
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-prev {
+	top: calc(100% - 40px);
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-next::after,
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-prev::after {
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 600;
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-next::after {
+	content: "\f324";
+}
+
+.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-prev::after {
+	content: "\f323";
+}
+
+.single-annual_reports.la .oct_button:active {
+	background-color: #fdd023 !important;
+	color: #fdd023 !important;
+}
+
+.single-annual_reports.la .oct_button:hover {
+	background-color: #fdd023 !important;
+	color: #fdd023 !important;
+	cursor: pointer;
+}
+
+.single-annual_reports.la .oct_button > span {
+	background-color: #461d7c;
+}
+
+.single-annual_reports.la .oct_button:active > span {
+	background-color: #461d7c;
+}
+
+.single-annual_reports.la .oct_button:hover > span {
+	background-color: #461d7c;
+}
+
+@media screen and (min-width: 768px) {
+	.single-annual_reports #header_c div.region_c {
+		width: 300px;
+	}
+
+	.single-annual_reports #anchors_c div.anchors_c {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.single-annual_reports #anchors_c div.anchors_c a {
+		border-right: 1px solid #fff;
+		font-size: 1.3rem;
+		line-height: 2em;
+		padding: 0 10px;
+	}
+
+	.single-annual_reports #anchors_c div.anchors_c a:last-child {
+		border-right: none;
+	}
+
+	.single-annual_reports #letter_c div.letter_c div.header {
+		font-size: 2.4rem;
+		top: -30px;
+	}
+
+	.single-annual_reports #mission_c,
+	.single-annual_reports.la #mission_c {
+		--swiper-navigation-color: #fff;
+		--swiper-navigation-sides-offset: 0;
+		--swiper-navigation-size: 45px;
+		padding: 60px 0 30px 0;
+	}
+
+	.single-annual_reports #mission_c div.desktop_w {
+		margin: 0 30px;
+	}
+
+	.single-annual_reports #mission_c.h_im div.desktop_w {
+		padding: 0 0 25vw 0;
+	}
+
+	.single-annual_reports #mission_c div.desktop_w h2 {
+		font-size: 3.2rem;
+	}
+
+	.single-annual_reports #mission_c div.desktop_w div.copy {
+		font-size: 1.8rem;
+	}
+
+	.single-annual_reports #mission_c div.images_c {
+		margin: -25vw 0 5vw 0;
+		padding: 0 0 40px 0;
+	}
+
+	.single-annual_reports #mission_c div.images_c div.swiper div.swiper-slide div.image {
+		height: 18vw;
+	}
+
+	.single-annual_reports #mission_c div.images_c .swiper-button-next,
+	.single-annual_reports #mission_c div.images_c .swiper-button-prev {
+		background-color: rgba(0,0,0,0.8);
+		height: 18vw;
+		top: calc((var(--swiper-navigation-size)/ 2));
+		width: calc(20vw - 24px);
+	}
+
+	.single-annual_reports #mission_c div.images_c .swiper-button-next.swiper-button-disabled,
+	.single-annual_reports #mission_c div.images_c .swiper-button-prev.swiper-button-disabled {
+		display: none;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c,
+	.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c,
+	.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c,
+	.single-annual_reports #whats_next_c div.section_hero_c div.image_c {
+		height: 300px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #whats_next_c div.section_hero_c div.image_c div.desktop_w h2 {
+		font-size: 3.2rem;
+		padding: 15px 30px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #program_spotlights_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #whats_next_c div.section_hero_c > div.desktop_w {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div,
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div:first-child,
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div:last-child,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div:first-child,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div:last-child {
+		border-bottom: none;
+		border-right: 1px solid #fff;
+		padding: 20px 50px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w > div:last-child,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w > div:last-child {
+		border-right: none;
+	}
+
+	.single-annual_reports #food_insecurity_c,
+	.single-annual_reports.la #food_insecurity_c,
+	.single-annual_reports #program_spotlights_c,
+	.single-annual_reports.la #program_spotlights_c {
+		--swiper-navigation-color: #fff;
+		--swiper-navigation-sides-offset: 0;
+		--swiper-navigation-size: 45px;
+		--swiper-pagination-bullet-size: 24px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c,
+	.single-annual_reports #program_spotlights_c div.images_c {
+		margin: 0 0 5vw 0;
+		padding: 0 0 40px 0;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c div.swiper div.swiper-slide div.image,
+	.single-annual_reports #program_spotlights_c div.images_c div.swiper div.swiper-slide div.image {
+		height: 18vw;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next,
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev,
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next,
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev {
+		background-color: rgba(0,0,0,0.8);
+		height: 18vw;
+		top: calc((var(--swiper-navigation-size)/ 2));
+		width: calc(20vw - 24px);
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next.swiper-button-disabled,
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev.swiper-button-disabled,
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next.swiper-button-disabled,
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev.swiper-button-disabled {
+		display: none;
+	}
+
+	.single-annual_reports #bottom_section_c {
+		height: 200px;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.quote {
+		font-size: 1.6rem;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.info {
+		font-size: 2.0rem;
+		margin: 15px 0 0 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.single-annual_reports #header_c,
+	.single-annual_reports #header_c.t {
+		background-attachment: fixed;
+		height: 700px;
+	}
+
+	.single-annual_reports #header_c h1 {
+		font-size: 10.0rem;
+	}
+
+	.single-annual_reports #header_c h2 {
+		font-size: 3.8rem;
+		margin: 20px 0 0 0;
+	}
+
+	.single-annual_reports #header_c div.region_c {
+		bottom: 60px;
+		width: 400px;
+	}
+
+	.single-annual_reports #header_c div.region_c div.header {
+		font-size: 2.2rem;
+	}
+
+	.single-annual_reports #header_c div.region_c div.toggle_c {
+		border-radius: 27px;
+		width: 290px;
+	}
+
+	.single-annual_reports #header_c div.region_c div.toggle_c a {
+		font-size: 1.8rem;
+	}
+
+	.single-annual_reports #header_c div.region_c div.toggle_c a.c {
+		border-radius: 25px;
+	}
+
+	.single-annual_reports #anchors_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+		padding: 75px 30px;
+	}
+
+	.single-annual_reports #anchors_c.l {
+		padding: 75px 30px 530px 30px;
+	}
+
+	.single-annual_reports #anchors_c div.anchors_c a {
+		font-size: 1.7rem;
+		padding: 0 15px;
+	}
+
+	.single-annual_reports #letter_c {
+		background: fixed #000 url("../img/annual_reports/bg_letter.png") repeat center center / 1920px auto;
+		padding: 30px 30px 200px 30px;
+	}
+
+	.single-annual_reports.la #letter_c {
+		background: fixed #000 url("../img/annual_reports/la_bg_letter.jpg") repeat center center / 1920px auto;
+	}
+
+	.single-annual_reports #letter_c div.letter_c {
+		margin: -450px auto 0 auto;
+		padding: 90px 60px 20px 60px;
+	}
+
+	.single-annual_reports #letter_c div.letter_c div.header {
+		font-size: 3.5rem;
+		left: 124px;
+		top: -35px;
+		width: calc(100% - 248px)
+	}
+
+	.single-annual_reports #letter_c div.letter_c div.copy {
+		font-size: 2.0rem;
+		line-height: 1.65;
+	}
+
+	.single-annual_reports #mission_c,
+	.single-annual_reports.la #mission_c {
+		--swiper-pagination-bullet-size: 25px;
+		padding: 120px 0;
+	}
+
+	.single-annual_reports #mission_c div.desktop_w {
+		border: 5px solid #3d74b6;
+	}
+
+	.single-annual_reports.la #mission_c div.desktop_w {
+		border: 5px solid #fdd023;
+	}
+
+	.single-annual_reports #mission_c.h_im div.desktop_w {
+		padding: 0 0 350px 0;
+		margin: 0 auto;
+		width: calc(100vw - 100px);
+	}
+
+	.single-annual_reports #mission_c div.desktop_w h2 {
+		font-size: 5.8rem;
+		margin: -50px 0 0 0;
+	}
+
+	.single-annual_reports #mission_c div.desktop_w div.copy {
+		font-size: 3.1rem;
+		padding: 0 140px 50px 140px;
+	}
+
+	.single-annual_reports #mission_c div.images_c {
+		margin: -360px 0 0 0;
+		padding: 0 0 60px 0;
+	}
+
+	.single-annual_reports #mission_c div.images_c div.swiper div.swiper-slide div.image {
+		background-color: transparent;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 275px;
+	}
+
+	.single-annual_reports #mission_c div.images_c .swiper-button-next,
+	.single-annual_reports #mission_c div.images_c .swiper-button-prev {
+		height: 275px;
+		width: calc(20vw - 32px);
+	}
+
+	.single-annual_reports #mission_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #000;
+	}
+
+	.single-annual_reports.la #mission_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #461d7c;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c,
+	.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c,
+	.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c,
+	.single-annual_reports #whats_next_c div.section_hero_c div.image_c {
+		height: 650px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #food_insecurity_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #program_spotlights_c div.section_hero_c div.image_c div.desktop_w h2,
+	.single-annual_reports #whats_next_c div.section_hero_c div.image_c div.desktop_w h2 {
+		font-size: 5.8rem;
+		margin: 0 0 90px 0;
+		padding: 20px 40px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #program_spotlights_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #whats_next_c div.section_hero_c > div.desktop_w {
+		font-size: 2.0rem;
+		padding: 65px 250px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.section_hero_c > div.desktop_w,
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c > div.desktop_w {
+		padding: 30px 250px;
+	}
+
+	.single-annual_reports #impact_spotlights_c > div.desktop_w {
+		padding: 140px 100px 70px 100px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top div.left div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top div.left div.copy {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top div.right div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top div.right div.amount {
+		font-family: 'industry', sans-serif;
+		font-size: 9.8rem;
+		line-height: 1;
+		margin: 25px 0 0 0;
+		text-align: left;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.bottom {
+		column-gap: 150px;
+		grid-row-gap: 70px;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 100px 0 0 0;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.bottom div.section:nth-child(odd):last-child {
+		grid-column: 1 / -1;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.bottom div.section div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.bottom div.section div.bullet_points > div {
+		font-size: 2.0rem;
+		padding: 0 0 0 50px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.bottom div.section div.bullet_points > div::before {
+		font-size: 5.8rem;
+		top: -27px;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.cta_c {
+		margin-bottom: 70px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.section_hero_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top {
+		column-gap: 150px;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 140px 100px;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section {
+		padding: 0 0 0 60px;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section:nth-child(odd):last-child {
+		grid-column: 1 / -1;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.header::before {
+		font-size: 5.8rem;
+		left: -70px;
+		top: -9px;
+	}
+
+	.single-annual_reports #food_insecurity_c > div.desktop_w div.top div.section div.copy {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #food_insecurity_c div.cta_c {
+		margin-bottom: 100px;
+		margin-top: -70px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c {
+		margin: 0;
+		padding: 0 0 60px 0;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c div.swiper div.swiper-slide div.image {
+		background-color: transparent;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 275px;
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-next,
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-button-prev {
+		height: 275px;
+		width: calc(20vw - 32px);
+	}
+
+	.single-annual_reports #food_insecurity_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #000;
+	}
+
+	.single-annual_reports.la #food_insecurity_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #461d7c;
+	}
+
+	.single-annual_reports #mental_wellness_support_c div.section_hero_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top {
+		column-gap: 150px;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 140px 100px;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section {
+		padding: 0 0 0 60px;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section:nth-child(odd):last-child {
+		grid-column: 1 / -1;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.header::before {
+		font-size: 5.8rem;
+		left: -70px;
+		top: -9px;
+	}
+
+	.single-annual_reports #mental_wellness_support_c > div.desktop_w div.top div.section div.copy {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #mental_wellness_support_c div.cta_c {
+		margin-bottom: 100px;
+		margin-top: -70px;
+	}
+
+	.single-annual_reports #program_spotlights_c div.section_hero_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w {
+		column-gap: 150px;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 140px 100px;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w div.section {
+		padding: 0 0 0 60px;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w div.section:nth-child(odd):last-child {
+		grid-column: 1 / -1;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.header::before {
+		font-size: 5.8rem;
+		left: -70px;
+		top: -9px;
+	}
+
+	.single-annual_reports #program_spotlights_c > div.desktop_w div.section div.copy {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #program_spotlights_c div.cta_c {
+		margin-bottom: 100px;
+		margin-top: -70px;
+	}
+
+	.single-annual_reports #program_spotlights_c div.images_c {
+		margin: 0 0 30px 0;
+		padding: 0 0 60px 0;
+	}
+
+	.single-annual_reports #program_spotlights_c div.images_c div.swiper div.swiper-slide div.image {
+		background-color: transparent;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 275px;
+	}
+
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-next,
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-button-prev {
+		height: 275px;
+		width: calc(20vw - 32px);
+	}
+
+	.single-annual_reports #program_spotlights_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #000;
+	}
+
+	.single-annual_reports.la #program_spotlights_c div.images_c .swiper-pagination-bullet {
+		border: 4px solid #461d7c;
+	}
+
+	.single-annual_reports #whats_next_c div.section_hero_c {
+		background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+	}
+
+	.single-annual_reports #whats_next_c > div.desktop_w.s_l {
+		column-gap: 150px;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 120px 100px 85px 100px;
+	}
+
+	.single-annual_reports #whats_next_c div.left {
+		padding: 0 0 0 60px;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.section div.header {
+		font-size: 4.8rem;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.section div.header::before {
+		font-size: 5.8rem;
+		left: -70px;
+		top: -9px;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.section div.copy {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.images_c {
+		height: 640px;
+		margin: 80px 0 0 0;
+		position: relative;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.images_c div.image {
+		position: absolute;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.images_c div.image:nth-child(1) {
+		bottom: 0;
+		height: 350px;
+		margin: 0;
+		right: 0;
+		width: 400px;
+		z-index: 3;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.images_c div.image:nth-child(2) {
+		height: 340px;
+		left: 0;
+		top: 0;
+		width: 370px;
+		z-index: 2;
+	}
+
+	.single-annual_reports #whats_next_c div.left div.images_c div.orange_layer {
+		background-color: #fef3df;
+		display: block;
+		height: 300px;
+		left: 100px;
+		position: absolute;
+		top: 181px;
+		width: 400px;
+		z-index: 1;
+	}
+
+	.single-annual_reports.la #whats_next_c div.left div.images_c div.orange_layer {
+		background-color: #461d7c;
+	}
+
+	.single-annual_reports #whats_next_c div.right {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section {
+		flex: 0 0 calc(50% - 30px);
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section.w {
+		flex: 0 0 100%;
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section div.header {
+		font-size: 4.1rem;
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section ul {
+		padding: 0 0 0 15px;
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section.w ul {
+		columns: 2;
+		column-gap: 60px;
+		padding: 0 0 0 30px;
+	}
+
+	.single-annual_reports #whats_next_c div.right div.section ul li {
+		font-size: 2.0rem;
+	}
+
+	.single-annual_reports #whats_next_c div.cta_c {
+		margin-bottom: 85px;
+	}
+
+	.single-annual_reports #bottom_section_c {
+		background: fixed #000 url("../img/annual_reports/bg_letter.png") repeat center center / 1920px auto;
+		height: 287px;
+	}
+
+	.single-annual_reports.la #bottom_section_c {
+		background: fixed #000 url("../img/annual_reports/la_bg_letter.jpg") repeat center center / 1920px auto;
+	}
+
+	.single-annual_reports div.testimonials_c {
+		--swiper-pagination-bullet-color: #3d74b6;
+		--swiper-pagination-bullet-inactive-color: #000;
+		--swiper-pagination-bullet-size: 25px;
+		--swiper-navigation-color: #000;
+		--swiper-navigation-sides-offset: -60px;
+		--swiper-navigation-size: 45px;
+		padding: 0 33px 60px 33px;
+		position: relative;
+	}
+
+	.single-annual_reports.la div.testimonials_c {
+		--swiper-pagination-bullet-inactive-color: #461d7c;
+		--swiper-pagination-color: #fdd023;
+		--swiper-navigation-color: #461d7c;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w {
+		padding: 0 120px;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c {
+		border: 5px solid #3d74b6;
+		padding: 45px;
+	}
+
+	.single-annual_reports.la div.testimonials_c div.desktop_w > div.outer_c > div.inner_c {
+		border: 5px solid #fdd023;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.flourish {
+		font-size: 12.5rem;
+		left: 45px;
+		top: -50px;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper {
+		background-color: #f7f7f7;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c {
+		padding: 60px 70px;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.quote {
+		font-size: 2.4rem;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c > div.inner_c div.swiper div.swiper-slide > div.inner_c div.info {
+		font-size: 2.4rem;
+		margin: 25px 0 0 0;
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-next,
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-button-prev {
+		top: calc(50% - 40px);
+	}
+
+	.single-annual_reports div.testimonials_c div.desktop_w > div.outer_c .swiper-pagination-bullet {
+		border: 4px solid #000;
+	}
+
+	.single-annual_reports.la div.testimonials_c div.desktop_w > div.outer_c .swiper-pagination-bullet {
+		border: 4px solid #461d7c;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.single-annual_reports #anchors_c div.anchors_c a {
+		font-size: 2.4rem;
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top {
+		column-gap: 100px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.single-annual_reports #impact_spotlights_c div.top div.right {
+		padding: 0;
+	}
+}
+

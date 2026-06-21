@@ -1,0 +1,223 @@
+/**
+ * 5.0 Contact Us
+ */
+
+.page-template-contact-us #header_c {
+	background-color: transparent;
+	background-position: center center, center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	justify-content: flex-end;
+	padding: 30px;
+}
+
+.page-template-contact-us #header_c h1 {
+	color: #fff;
+	font-family: 'industry', sans-serif;
+	font-size: 5.0rem;
+	font-weight: 600;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-template-contact-us #form_c {
+	background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.page-template-contact-us #form_c div.desktop_w {
+	padding: 30px;
+}
+
+.page-template-contact-us #form_c div.desktop_w > p,
+.page-template-contact-us #form_c div.desktop_w > ul li {
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.page-template-contact-us #form_c div.desktop_w > p strong {
+	color: #3d74b6
+}
+
+.page-template-contact-us #form_c .gfield_html a {
+	color: #3d74b6;
+}
+
+.page-template-contact-us #form_c div.desktop_w > p a,
+.page-template-contact-us #form_c div.desktop_w > ul li a {
+	color: #97999b;
+}
+
+.page-template-contact-us #form_c div.desktop_w > p:last-child {
+	margin-bottom: 0;
+}
+
+.page-template-contact-us #form_c form {
+	background-color: #e7e7e7;
+	margin: 30px 0 10px 0;
+	padding: 30px;
+}
+
+.page-template-contact-us #form_c form .gform_footer {
+	justify-content: flex-end;
+}
+
+.page-template-contact-us #form_c form .gfield_html {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.page-template-contact-us #form_c div.desktop_w .gform_confirmation_message {
+	color: #fff;
+	margin: 1em 0;
+	text-align: center;
+}
+
+.page-template-contact-us #form_c div.desktop_w > span {
+	display: block;
+	color: #97999b;
+	font-size: 1.0rem;
+	text-align: center;
+}
+
+.page-template-contact-us #form_c div.desktop_w > span a {
+	color: #97999b;
+	font-size: 1.0rem;
+}
+
+.page-template-contact-us #cta_c {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0 0 0;
+	padding: 0 0 30px 0;
+	text-decoration: none;
+}
+
+.page-template-contact-us #cta_c {
+	padding: 30px;
+}
+
+.page-template-contact-us #cta_c div.desktop_w {
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0 0 0;
+	padding: 0 0 30px 0;
+	text-decoration: none;
+}
+
+.page-template-contact-us #cta_c div.desktop_w div.image {
+	background-color: #e7e7e7;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 57vw;
+	margin: 0 0 30px 0;
+}
+
+.page-template-contact-us #cta_c div.desktop_w > h2 {
+	color: #3d74b6;
+	flex: 1;
+	font-family: 'industry', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 20px 0 0 0;
+	padding: 0 30px;
+}
+
+.page-template-contact-us #cta_c div.desktop_w > p {
+	color: #fff;
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 0 30px;
+}
+
+.page-template-contact-us #cta_c div.desktop_w > p:last-of-type {
+	margin-bottom: 0;
+}
+
+.page-template-contact-us #cta_c div.desktop_w > a {
+	margin: 30px 30px 0 30px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+	.page-template-contact-us #header_c {
+		height: 700px;
+	}
+
+	.page-template-contact-us #header_c h1 {
+		font-size: 10.0rem;
+	}
+
+	.page-template-contact-us #form_c div.desktop_w {
+		padding: 100px 50px 150px 50px;
+	}
+
+	.page-template-contact-us #form_c div.desktop_w > p,
+	.page-template-contact-us #form_c div.desktop_w > ul li {
+		font-size: 2.0rem;
+	}
+
+	.page-template-contact-us #form_c form {
+		margin: 60px 0 10px 0;
+		padding: 60px;
+	}
+
+	.page-template-contact-us #form_c form .gfield_html {
+		font-size: 1.6rem;
+	}
+
+	.page-template-contact-us #cta_c {
+		padding: 100px 50px 100px 100px;
+	}
+
+	.page-template-contact-us #cta_c div.desktop_w {
+		margin: 25px auto 0 auto;
+		max-width: 1450px;
+		padding: 40px 150px 40px 475px;
+		position: relative;
+	}
+
+	.page-template-contact-us #cta_c div.desktop_w div.image {
+		background-size: 335px auto;
+		height: 365px;
+		left: -45px;
+		margin: 0;
+		position: absolute;
+		top: -65px;
+		width: 468px;
+	}
+
+	.page-template-contact-us #cta_c div.desktop_w > h2 {
+		font-size: 4.8rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page-template-contact-us #cta_c div.desktop_w > p {
+		font-size: 2.2rem;
+		padding: 0;
+	}
+
+	.page-template-contact-us #cta_c div.desktop_w > a {
+		align-self: flex-start;
+		margin: 40px 0 0 0;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.page-template-contact-us #cta_c {
+		padding: 100px 50px;
+	}
+}
+

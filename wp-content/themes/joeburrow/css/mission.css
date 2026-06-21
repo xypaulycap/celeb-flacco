@@ -1,0 +1,336 @@
+/**
+ * 1.0 Mission
+ */
+
+.page-template-mission #header_c {
+	background: transparent url('../img/global/bg_texture.png') no-repeat center center / cover;
+	padding: 70px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+/* .page-template-mission #header_c div.desktop_w {
+	align-items: center;
+	background: transparent url('../img/home/signature.png') no-repeat center bottom 30px / 133px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 70px 50px 160px 50px;
+} */
+.page-template-mission #header_c div.desktop_w {
+	align-items: center;
+	background: transparent url('') no-repeat center bottom 30px / 133px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 70px 50px 160px 50px;
+}
+
+.page-template-mission #header_c h1 {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-template-mission #header_c h1::before {
+	content: '';
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;
+	border-right: 50px solid #3d74b6;
+	height: 0;
+	left: calc(50% - 150px);
+	position: absolute;
+	top: 13px;
+	width: 0;
+}
+
+.page-template-mission #header_c h1::after {
+	content: '';
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;
+	border-left: 50px solid #3d74b6;
+	height: 0;
+	right: calc(50% - 150px);
+	position: absolute;
+	top: 13px;
+	width: 0;
+}
+
+.page-template-mission #header_c p {
+	color: #fff;
+	font-size: 2rem;
+	line-height: 1.25;
+	text-align: center;
+}
+
+.page-template-mission #middle_content_c {
+	padding: 30px;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c {
+
+}
+
+.page-template-mission #middle_content_c div.middle_content_c div.headline {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 2.0rem;
+	font-weight: 600;
+	line-height: 2.7rem;
+	text-align: center;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c p,
+.page-template-mission #middle_content_c div.middle_content_c li {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c {
+	height: 300px;
+	margin: 75px 0 50px 0;
+	position: relative;
+	width: 300px;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.image {
+	background-color: transparent;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	position: relative;
+	width: 300px;
+	z-index: 1;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.box {
+	background-color: #000;
+	content: '';
+	height: 177px;
+	position: absolute;
+	right: -10px;
+	top: 60px;
+	width: 288px;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c {
+	height: 336px;
+	margin: 75px 0 0 0;
+	position: relative;
+	width: 300px;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.image {
+	background-color: transparent;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 336px;
+	position: relative;
+	width: 300px;
+	z-index: 1;
+}
+
+.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.box {
+	background-color: #000;
+	content: '';
+	height: 171px;
+	position: absolute;
+	right: 10px;
+	top: 110px;
+	width: 262px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+	.page-template-mission #header_c {
+		background: fixed transparent url('../img/global/bg_texture.png') repeat-y center center / auto 100%;
+		padding: 95px 0 0 0;
+	}
+
+	/* .page-template-mission #header_c div.desktop_w {
+		background: transparent url('../img/home/signature.png') no-repeat center bottom 80px / 192px auto;
+		padding: 150px 20% 310px 20%;
+	} */
+	.page-template-mission #header_c div.desktop_w {
+		background: transparent url('') no-repeat center bottom 80px / 192px auto;
+		padding: 150px 20% 310px 20%;
+	}
+
+	.page-template-mission #header_c h1 {
+		font-size: 8.8rem;
+	}
+
+	.page-template-mission #header_c h1::before {
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		border-right: 130px solid #3d74b6;
+		left: calc(50% - 440px);
+		top: 40px;
+	}
+
+	.page-template-mission #header_c h1::after {
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		border-left: 130px solid #3d74b6;
+		right: calc(50% - 440px);
+		top: 40px;
+	}
+
+	.page-template-mission #header_c p {
+		font-size: 4rem;
+		margin: 10px 0 0 0;
+	}
+
+	.page-template-mission #middle_content_c {
+		padding: 100px 0 30px 0;
+	}
+
+	.page-template-mission #middle_content_c div.desktop_w {
+		padding: 0 95px;
+	}
+
+
+	.page-template-mission #middle_content_c div.middle_content_c {
+		padding: 0 50% 0 0;
+		position: relative;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:nth-child(even) {
+		padding: 100px 0 0 56%;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c div.headline {
+		font-size: 5.0rem;
+		line-height: 1;
+		text-align: left;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c p,
+	.page-template-mission #middle_content_c div.middle_content_c li {
+		font-size: 2.0rem;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c {
+		height: 265px;
+		margin: 0;
+		position: absolute;
+		right: 100px;
+		top: 0;
+		width: 266px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.image {
+		height: 265px;
+		width: 266px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.box {
+		height: 190px;
+		right: 20px;
+		top: 40px;
+		width: 232px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c {
+		height: 471px;
+		left: 0;
+		margin: 75px 0 0 0;
+		position: absolute;
+		top: 50px;
+		width: 420px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.image {
+		height: 471px;
+		width: 420px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.box {
+		height: 190px;
+		right: 50px;
+		top: 190px;
+		width: 292px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.page-template-mission #middle_content_c div.middle_content_c:nth-child(even) {
+		padding: 120px 0 0 56%;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c {
+		height: 360px;
+		margin: 0;
+		position: absolute;
+		right: 100px;
+		top: 0;
+		width: 360px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.image {
+		height: 360px;
+		width: 360px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.box {
+		height: 290px;
+		right: 20px;
+		top: 40px;
+		width: 310px;
+	}
+}
+
+@media screen and (min-width: 1460px) {
+	.page-template-mission #middle_content_c div.middle_content_c:nth-child(even) {
+		padding: 370px 0 0 56%;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c {
+		height: 543px;
+		width: 543px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.image {
+		height: 543px;
+		width: 543px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:first-child div.image_c div.box {
+		height: 381px;
+		right: 40px;
+		top: 90px;
+		width: 464px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c {
+		height: 718px;
+		left: 0;
+		margin: 75px 0 0 0;
+		position: absolute;
+		top: 50px;
+		width: 640px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.image {
+		height: 718px;
+		width: 640px;
+	}
+
+	.page-template-mission #middle_content_c div.middle_content_c:last-child div.image_c div.box {
+		height: 350px;
+		right: 70px;
+		top: 220px;
+		width: 460px;
+	}
+}
+

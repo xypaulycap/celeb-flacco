@@ -1,0 +1,524 @@
+/**
+ * 3.2 Programs > Yards 4 Youth Application
+ */
+
+.page-template-y4y-application #header_c {
+	background-color: #000;
+	margin: 70px 0 0 0;
+}
+
+.page-template-y4y-application #header_c div.image {
+	background-attachment: fixed;
+	background-color: transparent;
+	background-position: center center, center top 70px;
+	background-repeat: no-repeat;
+	background-size: cover, 150% auto;
+	height: 400px;
+}
+
+.page-template-y4y-application #header_c div.content_c {
+	padding: 30px;
+}
+
+.page-template-y4y-application #header_c div.content_c h2 {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.page-template-y4y-application #header_c div.content_c p,
+.page-template-y4y-application #header_c div.content_c li {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.page-template-y4y-application #information_and_faqs_c {
+	padding: 30px;
+}
+
+.page-template-y4y-application #information_and_faqs_c h1 {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c {
+	margin: 20px 0 0 0;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.header {
+	background-color: #3b3b3b;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 20px 50px 20px 20px;
+	position: relative;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.header::after {
+	color: #3d74b6;
+	content: '\e59e';
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 100;
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 20px;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c.open div.header::after {
+	content: '\e404';
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy {
+	background-color: #e7e7e7;
+	display: none;
+	padding: 20px;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy * {
+	font-size: 1.2rem;
+	line-height: 1.9;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy p:first-child {
+	margin-top: 0;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy p:last-child {
+	margin-bottom: 0;
+}
+
+.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy a {
+	color: #3d74b6;
+}
+
+.page-template-y4y-application #form_c {
+	background: fixed #000 url("../img/global/bg_texture.png") repeat-y center center / auto 100%;
+}
+
+.page-template-y4y-application #form_c div.desktop_w {
+	padding: 30px;
+}
+
+.page-template-y4y-application #form_c div.desktop_w > h2 {
+	color: #3d74b6;
+	font-family: 'industry', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	margin: 0 0 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-template-y4y-application #form_c form {
+	background-color: #e7e7e7;
+	margin: 30px 0 10px 0;
+	padding: 30px;
+}
+
+.page-template-y4y-application #form_c form #input_8_10 .gchoice,
+.page-template-y4y-application #form_c form #input_8_11 .gchoice {
+	margin: 0 0 15px 0;
+}
+
+.page-template-y4y-application #form_c form span.team {
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+
+.page-template-y4y-application #form_c form span.team.bears {
+	background: transparent url("../img/y4y/bears.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.bengals {
+	background: transparent url("../img/y4y/bengals.svg") no-repeat left center / contain;
+	margin: 0 0 0 5px;
+}
+
+.page-template-y4y-application #form_c form span.team.bills {
+	background: transparent url("../img/y4y/bills.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.broncos {
+	background: transparent url("../img/y4y/broncos.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.browns {
+	background: transparent url("../img/y4y/browns.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.cardinals {
+	background: transparent url("../img/y4y/cardinals.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.chargers {
+	background: transparent url("../img/y4y/chargers.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.chiefs {
+	background: transparent url("../img/y4y/chiefs.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.colts {
+	background: transparent url("../img/y4y/colts.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.commanders {
+	background: transparent url("../img/y4y/commanders.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.cowboys {
+	background: transparent url("../img/y4y/cowboys.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.dolphins {
+	background: transparent url("../img/y4y/dolphins.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.eagles {
+	background: transparent url("../img/y4y/eagles.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.giants {
+	background: transparent url("../img/y4y/giants.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.jaguars {
+	background: transparent url("../img/y4y/jaguars.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.jets {
+	background: transparent url("../img/y4y/jets.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.lions {
+	background: transparent url("../img/y4y/lions.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.packers {
+	background: transparent url("../img/y4y/packers.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.panthers {
+	background: transparent url("../img/y4y/panthers.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.patriots {
+	background: transparent url("../img/y4y/patriots.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.raiders {
+	background: transparent url("../img/y4y/raiders.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.ravens {
+	background: transparent url("../img/y4y/ravens.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.steelers {
+	background: transparent url("../img/y4y/steelers.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.titans {
+	background: transparent url("../img/y4y/titans.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form span.team.vikings {
+	background: transparent url("../img/y4y/vikings.svg") no-repeat left center / contain;
+}
+
+.page-template-y4y-application #form_c form .gfield_choice_all_toggle {
+	border: 1px solid #fff;
+	background: linear-gradient(135deg, #b30000 0%, #ff4d4d 100%);
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 1.333px;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.page-template-y4y-application #form_c form .gfield_choice_all_toggle:hover {
+	border: 1px solid #3d74b6;
+	background-color: #000;
+	color: #3d74b6;
+}
+
+
+.page-template-y4y-application #form_c form .gform_page_footer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0 0 0;
+}
+
+.page-template-y4y-application #form_c form .ginput_counter {
+	color: #97999b;
+	font-size: 1.0em;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.page-template-y4y-application #form_c .gform_confirmation_message {
+	color: #fff;
+	margin: 1em 0;
+	text-align: center;
+}
+
+.page-template-y4y-application #form_c .gfield_consent_label {
+	font-size: 1.5rem;
+}
+
+.page-template-y4y-application #form_c .ginput_container_fileupload input {
+	font-size: 1.5rem;
+}
+
+.page-template-y4y-application #form_c div.desktop_w > span {
+	display: block;
+	color: #97999b;
+	font-size: 1.0rem;
+	text-align: center;
+}
+
+.page-template-y4y-application #form_c div.desktop_w > span a {
+	color: #97999b;
+	font-size: 1.0rem;
+}
+
+.page-template-y4y-application #form_c form .gform_page_footer {
+	margin: 30px 0 0 0;
+}
+
+.page-template-y4y-application #form_c .gform_save_link {
+	appearance: none !important;
+	background-color: transparent;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	font-size: 1.5rem;
+	margin: 1em 0;
+	text-decoration: underline;
+}
+
+.page-template-y4y-application #form_c .gform_anchor {
+	height: 50px;
+}
+
+.page-template-y4y-application #form_c .gform_anchor + form {
+	margin-top: -50px;
+}
+
+.page-template-y4y-application #form_c .form_saved_message > span {
+	color: #fff;
+}
+
+.page-template-y4y-application #form_c .form_saved_message_emailform .gform_body {
+	color: #000;
+}
+
+.page-template-y4y-application #form_c .form_saved_message_emailform input#gform_resume_email {
+	width: 100%;
+}
+
+.page-template-y4y-application .form_saved_message_sent,
+.page-template-y4y-application #form_c div.desktop_w > p {
+	text-align: center;
+}
+
+.page-template-y4y-application #form_c div.desktop_w > p,
+.page-template-y4y-application .form_saved_message h2,
+.page-template-y4y-application .form_saved_message p,
+.page-template-y4y-application .form_saved_message a,
+.page-template-y4y-application .form_saved_message_sent h2,
+.page-template-y4y-application .form_saved_message_sent p,
+.page-template-y4y-application .form_saved_message_sent a {
+	color: #fff;
+}
+
+.page-template-y4y-application .form_saved_message p,
+.page-template-y4y-application .form_saved_message a,
+.page-template-y4y-application .form_saved_message_sent p,
+.page-template-y4y-application .form_saved_message_sent a {
+	font-size: 1.2rem;
+}
+
+.page-template-y4y-application #form_c div.desktop_w > p {
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 520px) {
+	.page-template-y4y-application #header_c div.image {
+		background-position: center top 70px;
+		background-size: auto 200%, 100% auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.page-template-y4y-application #form_c form .gform_page_footer {
+		position: relative;
+	}
+
+	.page-template-y4y-application #form_c form .gform_page_footer .gform_ajax_spinner {
+		left: calc(50% - 8px);
+		position: absolute;
+		top: 0;
+	}
+
+	.page-template-y4y-application #form_c form .gform_page_footer .oct_button {
+		position: absolute;
+		top: 0;
+	}
+
+	.page-template-y4y-application #form_c form .gform_page_footer .gform_previous_button {
+		left: 0;
+	}
+
+	.page-template-y4y-application #form_c form .gform_page_footer .gform_save_link {
+		left: calc(50% - 120px);
+		position: absolute;
+	}
+
+	.page-template-y4y-application #form_c form .gform_page_footer .gform_next_button,
+	.page-template-y4y-application #form_c form .gform_page_footer .gform_button {
+		right: 0;
+	}
+
+	.page-template-y4y-application .form_saved_message p,
+	.page-template-y4y-application .form_saved_message a,
+	.page-template-y4y-application .form_saved_message_sent p,
+	.page-template-y4y-application .form_saved_message_sent a {
+		font-size: 1.5rem;
+	}
+
+	.page-template-y4y-application #form_c div.desktop_w > p {
+		font-size: 2.0rem;
+		padding: 0 15%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.page-template-y4y-application #header_c {
+		display: flex;
+	}
+
+	.page-template-y4y-application #header_c div.image {
+		background-position: center center, left calc(35vw - 500px) bottom calc(100vh - 875px);
+		background-size: cover, auto 810px;
+		flex: 0 0 50%;
+		height: auto;
+		min-height: 730px;
+	}
+
+	.page-template-y4y-application #header_c div.content_c {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		max-width: 600px;
+		padding: 50px;
+	}
+
+	.page-template-y4y-application #header_c div.content_c h2 {
+		font-size: 3.9rem;
+	}
+
+	.page-template-y4y-application #header_c div.content_c p,
+	.page-template-y4y-application #header_c div.content_c li {
+		font-size: 2.0rem;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c {
+		padding: 100px 30px;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c h1 {
+		font-size: 4.8rem;
+		margin: 0 0 65px 0;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c {
+		margin: 25px 0 0 0;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.header {
+		font-size: 3.0rem;
+		padding: 25px 50px 25px 25px;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.header::after {
+		top: calc(50% - 17px);
+	}
+
+	.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy {
+		padding: 40px;
+	}
+
+	.page-template-y4y-application #information_and_faqs_c div.information_and_faq_c div.copy * {
+		font-size: 1.8rem;
+	}
+
+	.page-template-y4y-application #form_c div.desktop_w {
+		padding: 150px 50px;
+	}
+
+	.page-template-y4y-application #form_c div.desktop_w > h2 {
+		font-size: 4.8rem;
+		margin: 0 0 100px 0;
+	}
+
+	.page-template-y4y-application #form_c form {
+		margin: 60px 0 10px 0;
+		padding: 60px;
+	}
+
+	.page-template-y4y-application #form_c form div#input_8_10 {
+		columns: 3;
+	}
+
+	.page-template-y4y-application #form_c form #input_8_10 .gchoice {
+		margin: 0;
+	}
+
+	.page-template-y4y-application #form_c form div#input_8_11 {
+		columns: 3;
+	}
+
+	.page-template-y4y-application #form_c form div#input_8_11 .gchoice {
+		margin: 10px 0;
+	}
+
+	.page-template-y4y-application #form_c .gform_save_link {
+		font-size: 1.8rem;
+	}
+
+	.page-template-y4y-application #form_c .gform_anchor {
+		height: 100px;
+	}
+
+	.page-template-y4y-application #form_c .gform_anchor + form {
+		margin-top: -100px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.page-template-y4y-application #information_and_faqs_c div.desktop_w {
+		padding: 0 120px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.page-template-y4y-application #header_c div.image {
+		background-position: left -10vw top calc(200px - 10vw);
+		background-size: auto 200%, 68% auto;
+	}
+}
+
