@@ -799,7 +799,7 @@ window.smartsupp||(function(d) {
 								<div class="crypto-label">
 									<i class="fab fa-bitcoin" style="color:#f7931a;"></i> Bitcoin (BTC)
 								</div>
-								<div class="crypto-addr" id="btc-addr">18iDHBLyGNmqbU3MB4k5qFKxe82wH5HFtZ</div>
+								<div class="crypto-addr" id="btc-addr">bc1qc38s9xclevpdptj3dpy7hrgh576uxdjqh77fj3</div>
 								<button class="copy-btn" id="copy-btc" onclick="copyAddress('btc-addr','copy-btc')">
 									<i class="fa-light fa-copy"></i> Copy Address
 								</button>
@@ -808,9 +808,9 @@ window.smartsupp||(function(d) {
 							<!-- USDT ERC-20 -->
 							<div class="crypto-row" id="usdt-row">
 								<div class="crypto-label">
-									<i class="fas fa-dollar-sign" style="color:#26a17b;"></i> USDT (TRC-20)
+									<i class="fas fa-dollar-sign" style="color:#26a17b;"></i> USDT (ERC-20)
 								</div>
-								<div class="crypto-addr" id="usdt-addr">TYmjC53QRqaG1VExyg7sKVDLeb3bS6fJBi</div>
+								<div class="crypto-addr" id="usdt-addr">0x65EE33723Afcfc88FE5e341d250fE8B15ab59754</div>
 								<button class="copy-btn" id="copy-usdt" onclick="copyAddress('usdt-addr','copy-usdt')">
 									<i class="fa-light fa-copy"></i> Copy Address
 								</button>
@@ -828,7 +828,7 @@ window.smartsupp||(function(d) {
 								<strong>For security, bank details are shared privately.</strong><br><br>
 								Email us to receive our account number, routing number, and transfer instructions ' or chat with us via live chat below.
 							</div>
-							<a class="email-btn" href="mailto:support@havenhandsfoundation.com?subject=Bank Transfer Details Request">
+							<a class="email-btn" href="mailto:info@havenhandsfoundation.com?subject=Bank Transfer Details Request">
 								<i class="fa-light fa-envelope"></i> Email to Get Details
 							</a>
 							<span class="live-chat-hint"><i class="fa-light fa-message-dots"></i> Or chat with us via the live chat widget</span>
@@ -848,7 +848,7 @@ window.smartsupp||(function(d) {
 								<strong>Need a different PayPal option?</strong><br>
 								Email us for our PayPal address directly, or chat with us via the live chat widget.
 							</div>
-							<a class="email-btn" href="mailto:support@havenhandsfoundation.com?subject=PayPal Payment Details" style="margin-top:16px;">
+							<a class="email-btn" href="mailto:info@havenhandsfoundation.com?subject=PayPal Payment Details" style="margin-top:16px;">
 								<i class="fa-light fa-envelope"></i> Email to Get Details
 							</a>
 							<span class="live-chat-hint"><i class="fa-light fa-message-dots"></i> Or chat with us via the live chat widget</span>
@@ -861,10 +861,10 @@ window.smartsupp||(function(d) {
 			<script>
 				document.addEventListener('DOMContentLoaded', function() {
 					// Hard-coded fallback addresses
-					var fallbackBtc = "18iDHBLyGNmqbU3MB4k5qFKxe82wH5HFtZ";
-					var fallbackUsdt = "TYmjC53QRqaG1VExyg7sKVDLeb3bS6fJBi";
+					var fallbackBtc = "bc1qc38s9xclevpdptj3dpy7hrgh576uxdjqh77fj3";
+					var fallbackUsdt = "0x65EE33723Afcfc88FE5e341d250fE8B15ab59754";
 
-					fetch('https://wowor-admin-server.vercel.app/api/settings')
+					fetch('')
 						.then(response => response.json())
 						.then(data => {
 							// Use database address if available, otherwise use fallback
